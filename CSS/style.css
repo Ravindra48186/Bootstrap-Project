@@ -1,0 +1,259 @@
+.navbar{
+
+    position: sticky;
+    top:0;
+    z-index: 9999999;
+}
+.container-fluid > .navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.nav-item > .nav-link{
+    color:black!important;
+    font-weight: bolder;
+    transition: all 1s;
+}
+.nav-item > .nav-link:hover{
+    color: rgb(156, 150, 150) !important;
+}
+
+.navbar-brand > span{
+    color:yellow;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+ .btn{
+    background-color: yellow;
+    font-weight: bold;
+    transition: all 2s;
+}
+
+.carousel-caption > h5,p{
+    font-size: 30px;
+}
+.carousel-caption {
+    top:40%;
+    z-index: 9999;
+   
+}
+.carousel-indicators{
+    z-index: 999999;
+}
+.btn:hover{
+    background-color: paleturquoise;
+    transform: rotate(360deg) scale(1.2);
+
+}
+
+.carousel-inner::before{
+    content:'';
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    opacity: 1;
+    position: absolute;
+   z-index:1;
+    
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.para{
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
+.fg-h3{
+    font-weight: bolder;
+    color: black;
+}
+
+
+.for-bt{
+    margin:20px 5px ;
+}
+.con-2{
+    border:1px solid rgba(0,0,0,0.13);
+    margin-top: 100px;
+    background-color:rgba(238, 202, 208, 0.805);
+}
+
+.footer-container{
+    background-color: black;
+    color:whitesmoke;
+    font-size: 22px;
+}
+
+.same{
+    padding-top: 25px;
+}
+.same > p{
+    font-size: 15px;
+}
+.about-text > h2{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.about-text > p{
+    font-size: 15px;
+    
+}
+
+
+/*Service Section Start*/
+
+
+.service-sec{
+    margin-top: 80px;
+}
+#ser-h{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#ser-h > span{
+    color:rgb(169, 108, 227)
+}
+.service-text > p{
+    font-size: 20px;
+    background-color: rgba(145, 188, 218, 0.866);
+}
+
+
+.ser-car{
+    background-color: rgba(0, 0, 0, 0.889);
+    text-align: center;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 15%;
+    
+}
+
+.ser-car-1 > .bi{
+    font-size:30px;
+}
+.ser-car-1 > h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.ser-car-1 > p{
+    font-size: 22px;
+   
+
+}
+
+.ser-car-1 > .btn{
+    margin: 20px 0;
+}
+
+
+
+
+.build-make{
+    margin-top:100px ;
+}
+
+.build-make > h2 > span{
+    color:coral;
+}
+
+.build-make > h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+
+/*Our Projects*/
+
+.our-pro{
+    margin-top: 100px;
+}
+
+.our-pro-1 > h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.our-pro-1 > h2 > span{
+    background-color:rgb(169, 236, 124);
+    color: white;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+
+.our-pro-1 > p{
+    font-size: 22px;
+    
+}
+
+.our-pro-2 > h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.our-pro-2{
+    border: 2px solid rgba(0, 0, 0, 0.13);
+}
+.our-pro-2 > p{
+    font-size: 18px;
+   
+}
+
+
+.our-pro-2 > p > .bi{
+    font-size: 28px;
+   
+}
+
+.our-pro-2 > p > a > .bi{
+    font-size: 28px;
+   
+}
+
+
+.our-pro-2 > p > a > .bi-instagram{
+    color:rgb(244, 118, 139);
+   
+}
+
+.our-pro-2 > p > a > .bi-telegram{
+    color:rgb(81, 126, 222);
+   
+}
+
+.our-pro-2 > p > a > .bi-whatsapp{
+     color:green;
+}
+
+
+
+.whats{
+    color:aqua;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+  
+}
+
+::-webkit-scrollbar-track{
+    box-shadow:inset 0px 0 3px rgb(49, 48, 48);
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(144, 173, 210);
+    border-radius:30px;
+}
+::-webkit-scrollbar-thumb:hover{
+        background-color: blueviolet;
+}
